@@ -1,11 +1,11 @@
-Write the Java code for the following:
+/*Write the Java code for the following:
 A.Declare an integer variable. Initialize it with some value of your choice and print it to check the value has been stored properly.
 B.Declare and initialize another integer variable. Add this to the first one (without creating a new variable) and print out the result. Verify that the addition has been done correctly.
 C.Now print the product and division of the two integer numbers.
 D.Repeat exercises 1A, 1B, and 1C for variables of data type double. Verify your answers.
 E.Repeat exercises 1A, 1B, and 1C for one double data type and one integer datatype. Verify your answers.
 F.Repeat exercises 1A and 1B for variables of data type String. How does the addition operator work for Strings? What if the first variable is an integer and the second is a String and vice versa?
-G.Repeat 1A and 1B for integers taken as inputs from the user. 
+G.Repeat 1A and 1B for integers taken as inputs from the user. */
 
 Code:
 A)
