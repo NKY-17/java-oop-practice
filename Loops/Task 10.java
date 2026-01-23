@@ -1,3 +1,4 @@
+/*
 Write a java program that when given an amount of money, it calculates how many paper notes it will take to represent it. For simplicity let's assume we have only 500, 100, 50,10, 5 and 1 paper notes available.
 Note: You cannot use multiplication or division for this task
 
@@ -12,7 +13,7 @@ Sample Output:
 2 100’s note
 2 10’s note
 4 1’s note
-
+*/
 Code:
 import java.util.Scanner;
 public class task10{
