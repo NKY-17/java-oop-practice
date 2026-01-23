@@ -7,9 +7,9 @@ Output:
 5
 
 Code:
-public class task1{
+public class task3{
   public static void main(String[]args){
-       int id=23221454;//Using this id as last 2 digits of my id is same
+       int id=23221454;
        int x=id%100;
        int y=x%10;
        int z=x/10;
