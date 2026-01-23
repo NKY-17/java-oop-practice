@@ -1,3 +1,4 @@
+/*
 Write a java program that takes 2 integer numbers as input and calculates how many prime numbers exist between them.
 
 Sample Input:
@@ -10,7 +11,7 @@ Sample Input:
 100
 Sample Output:
 There are 10 prime numbers between 100 and 150.
-
+*/
 Code:
 import java.util.Scanner;
 public class task8{
