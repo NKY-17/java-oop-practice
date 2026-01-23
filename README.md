@@ -1,8 +1,15 @@
-# Java-oop-practice
-Collection of Java programs demonstrating object-oriented programming concepts and problem solving.
 # Java OOP Practice
 
-This repository contains my Java practice programs focused on **Object-Oriented Programming (OOP)** concepts.
+Collection of Java programs demonstrating object-oriented programming concepts and problem solving.
+
+---
+
+## 📘 Academic Context
+
+This repository contains Java programs and practice exercises completed as part of **CSE111: Object-Oriented Programming** coursework.
+The focus is on understanding core OOP principles through hands-on coding.
+
+⚠️ Shared for learning and reference purposes only.
 
 ---
 
@@ -24,4 +31,4 @@ This repository contains my Java practice programs focused on **Object-Oriented 
 ---
 
 ## 🎯 Purpose
-This repository demonstrates my understanding of Java OOP concepts through hands-on practice programs.
+This repository demonstrates my understanding of Java OOP concepts through hands-on practice programs and structured exercises.
