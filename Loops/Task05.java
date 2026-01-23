@@ -1,3 +1,4 @@
+/*
 Write a java program that takes inputs from the user in a loop until three consecutive zeros are entered, then displays the sum, average, minimum and maximum of those numbers. You can consider the zeros in the input to be excluded in the sum / max / min / average.
 
 Sample Input:
@@ -23,7 +24,7 @@ Sample Input:
 0
 Sample Output:
 No numbers found
-
+*/
 Code:
 import java.util.Scanner;
 public class q5{
