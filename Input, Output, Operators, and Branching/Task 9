@@ -17,6 +17,16 @@ CGPA:
 4.00
 Waiver percentage:
 100 percent
+Now let’s look at the samples.
+Sample Input: 
+3.93
+78
+Output: The student is eligible for a waiver of 50 percent
+Sample Input: 
+3.79
+24
+Output:
+The student is not eligible for a waiver
 
 Code:
 import java.util.Scanner;
