@@ -1,3 +1,4 @@
+/*
 Write a Java code of a program that takes an integer number as user input and then determines if that number is divisible by both 5 and 7; otherwise display “No”. For example, numbers like 35, 70, 105, 140, 175, 210, 245, 280 etc. can be divisible by both 5 and 7. 
 
 Sample Input: 15
@@ -8,7 +9,7 @@ Sample Input: 105
 Output: Divisible by Both
 Sample Input: 36
 Output: No
-
+*/
 Code:
 import java.util.Scanner;
 public class task7{
