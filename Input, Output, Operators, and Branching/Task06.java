@@ -1,3 +1,4 @@
+/*
 Write a Java code that will take a year as input and print whether that year is a leap year or not.     
 A year may be a leap year if it is evenly divisible by 4.
 Years that are divisible by 100 (century years such as 1900 or 2100) cannot be leap years unless they are also divisible by 400 (1600 or 2000). 
@@ -10,7 +11,7 @@ Sample Input: 1900
 Output: 1900 is not a leap year
 Sample Input: 2000
 Output: 2000 is a leap year
-
+*/
 Code:
 import java.util.Scanner;
 public class task6{
