@@ -1,3 +1,4 @@
+/*
 Fibonacci sequence is a sequence in which each number is the sum of the two preceding numbers, where starting values are most commonly two 1s (1, 1, . . .).
 
 a)Write a java program to display the fibonacci sequence until an input number.
@@ -24,7 +25,7 @@ Sample Input:
 Sample Output:
 1 1 2 3 5 8 13 21 34 55
 Sum = 143
-
+*/
 Code:
 .a)
 import java.util.Scanner;
@@ -73,6 +74,3 @@ System.out.println();
 System.out.print("Sum= "+sum);
 }
 }
-
-
-
