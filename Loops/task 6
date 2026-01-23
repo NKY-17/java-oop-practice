@@ -1,0 +1,54 @@
+Write a java program to calculate weighted average of 5 decimal numbers, where the numbers will be given in the following format:
+num1 
+weight1 
+num2 
+weight2
+num3 
+weight3
+num4 
+weight4
+num5 
+weight5
+
+The formula for calculating weighted average is as follows:
+W = i=1nwiXii=1nwi=w1X1+w2X2+...w1+w2+...=sum(weight*number)sum(weight)
+
+Sample Input:
+95.5 2
+72.1 4
+-3.8 1
+0 2
+59 1
+Sample Output:
+Weighted Average = 53.459999999999994
+Sample Input:
+3 2
+4 2
+5 2
+6 2
+7 3
+Sample Output:
+Weighted Average = 5.181818181818182
+
+Code:
+
+import java.util.Scanner;
+public class task6{
+  public static void main(String[]args){
+Scanner sc=new Scanner(System.in); 
+double cal=0.0;
+double totalw=0.0;
+for(int i=0;i<5;i++){
+  System.out.println("enter number");
+double n=sc.nextDouble();
+System.out.println("enter weight");
+int w=sc.nextInt();
+totalw+=w;
+cal+=n*w;
+}
+double sum=cal/totalw;
+System.out.println("Weighted average = "+sum);
+  }
+}
+
+
