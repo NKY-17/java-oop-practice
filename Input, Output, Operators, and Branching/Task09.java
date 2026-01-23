@@ -1,4 +1,4 @@
-Write a Java program that takes the CGPA and no of credits completed by a student and prints whether the student is eligible for a waiver and of what percentage.
+/*Write a Java program that takes the CGPA and no of credits completed by a student and prints whether the student is eligible for a waiver and of what percentage.
 To be eligible for a waiver, a student must have completed at least 30 credits and earned a CGPA greater or equal to 3.8. If not, please print "The student is not eligible for a waiver".
 
 CGPA:
@@ -27,7 +27,7 @@ Sample Input:
 24
 Output:
 The student is not eligible for a waiver
-
+*/
 Code:
 import java.util.Scanner;
 public class task9{
