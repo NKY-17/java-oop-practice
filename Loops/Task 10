@@ -1,0 +1,62 @@
+Write a java program that when given an amount of money, it calculates how many paper notes it will take to represent it. For simplicity let's assume we have only 500, 100, 50,10, 5 and 1 paper notes available.
+Note: You cannot use multiplication or division for this task
+
+Sample Input:
+1500
+Sample Output:
+3 500’s note
+Sample Input:
+3724
+Sample Output:
+7 500’s note
+2 100’s note
+2 10’s note
+4 1’s note
+
+Code:
+import java.util.Scanner;
+public class task10{
+  public static void main(String[]args){
+Scanner sc=new Scanner(System.in); 
+int x=sc.nextInt();
+int note500=0;
+int note100=0;
+int note50=0;
+int note10=0;
+int note5=0;
+int note1=0;
+while(x>=500){
+  x-=500;
+  note500++;
+}
+while(x>=100){
+  x-=100;
+  note100++;
+}while(x>=50){
+  x-=50;
+  note50++;
+}while(x>=10){
+  x-=10;
+  note10++;
+}while(x>=5){
+  x-=5;
+  note5++;
+}while(x>=1){
+  x-=1;
+  note1++;
+}
+ if(note500>0){
+    System.out.println(note500+" 500's notes");
+  } else if(note100>0){
+    System.out.println(note100+" 100's notes");
+  }else if(note50>0){
+    System.out.println(note50+" 50's notes");
+  }else if(note10>0){
+    System.out.println(note10+" 10's notes");
+  }else if(note5>0){
+    System.out.println(note5+" 5's notes");
+  }else if(note1>0){
+    System.out.println(note1+" 1's notes");
+  }
+}
+}
