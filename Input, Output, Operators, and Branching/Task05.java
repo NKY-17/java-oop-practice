@@ -1,3 +1,4 @@
+/* 
 Write the Java code of a program to find the largest among three different numbers entered by the user. 
 Sample Input
 Output
@@ -9,7 +10,7 @@ Largest number: 100
 17
 -5
 Largest number: 17
-
+*/
 Code:
 import java.util.Scanner;
 public class task5{
