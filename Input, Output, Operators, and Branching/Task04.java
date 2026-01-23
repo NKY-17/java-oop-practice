@@ -1,11 +1,11 @@
-Write a Java code to display the multiplication table for a positive integer 'n'. The table should include the products of 'n' with each of the numbers from 1 to 10. For example, if n = 5, your code should output:  
+/*Write a Java code to display the multiplication table for a positive integer 'n'. The table should include the products of 'n' with each of the numbers from 1 to 10. For example, if n = 5, your code should output:  
 5 x 1 = 5
 5 x 2 = 10
 5 x 3 = 15
 ...
 5 x 10 = 50
 [You are not allowed to use loops to solve this problem.]
-
+*/
 Code:
 public class task2{
   public static void main(String[]args){
