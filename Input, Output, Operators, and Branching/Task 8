@@ -1,0 +1,33 @@
+
+Write a Java Program, that takes in a BRACU student ID as integer, and prints out the year and the session the student enrolled in.
+Hints:
+The first two digits denote the year the student got enrolled
+The 3rd digit denotes the session Student joined 
+(Spring→1, Summer→3, Fall→2) 
+
+Sample Input: 16101307
+Output: Student Joined BRAC in Spring 16
+Sample Input: 19301307
+Output: Student Joined BRAC in Summer 19
+Sample Input: 20201307
+Output: Student Joined BRAC in Fall 20
+
+Code;
+public class task8{
+  public static void main(String[]args){
+    Scanner sc=new Scanner(System.in);
+        int id=sc.nextInt();
+        int x=id/100000;
+        int y=x%10;
+        int z=id/1000000;
+              if(y==1){
+        System.out.println("Student joined BRAC in Spring "+z);
+      }
+       else if(y==2){
+        System.out.println("Student joined BRAC in Fall "+z);
+      }
+         else{
+         System.out.println("Student joined BRAC in Summer "+z);
+}
+  }
+}
