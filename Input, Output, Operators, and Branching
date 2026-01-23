@@ -139,3 +139,54 @@ public class task1{
     System.out.println(x+y);
   }
 }
+
+Task 2:
+Write a Java program declaring two integer variables and initializing them. Your task is to swap the values of these two variables. You must complete it using two different approaches.
+By Creating a third variable.
+Without creating any other variables.
+
+Code:
+public class task2{
+  public static void main(String[]args){
+       int x=4;
+        int y=2;
+        int z=x;
+        x=y;
+        y=z;
+        System.out.println(x);
+         System.out.println(y);
+  }
+}
+
+public class task2{
+  public static void main(String[]args){
+       int x=4;
+        int y=2;
+        x=x+y;
+        y=x-y;
+        x=x-y;
+        System.out.println(x);
+         System.out.println(y);
+  }
+}
+
+Task 3:
+Write a Java program that displays the 2 rightmost digits of your student ID in reverse order. For example, if your student id is 23221454, you need to print 4, and then 5.
+
+Sample Input : 23221454
+Output:
+4
+5
+Code:
+public class task1{
+  public static void main(String[]args){
+       int id=23221454;//Using this id as last 2 digits of my id is same
+       int x=id%100;
+       int y=x%10;
+       int z=x/10;
+         System.out.println(y);
+          System.out.println(z);
+  }
+}
+
+
