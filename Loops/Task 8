@@ -1,0 +1,41 @@
+Write a java program that takes 2 integer numbers as input and calculates how many prime numbers exist between them.
+
+Sample Input:
+10 
+15
+Sample Output:
+There are 2 prime numbers between 10 and 15.
+Sample Input:
+150 
+100
+Sample Output:
+There are 10 prime numbers between 100 and 150.
+
+Code:
+import java.util.Scanner;
+public class task8{
+  public static void main(String[]args){
+Scanner sc=new Scanner(System.in); 
+int x=sc.nextInt();
+int y=sc.nextInt();
+int c=0;
+if(x>y){
+  int z=x;
+  x=y;
+  y=z;
+}
+for(int i=x+1;i<y;i++){
+boolean prime=true;
+for(int j=2;j*j<=i;j++){
+  if(i%j==0){
+    prime=false;
+    break;
+  }
+}
+if(prime){
+  c++;
+}
+  }
+  System.out.println(c+" prime number between "+x+" and "+y);
+}
+  }    
