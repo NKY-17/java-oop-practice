@@ -1,3 +1,4 @@
+/*
 Write the Java code of a program that takes an integer from the user, and prints the integer it is a multiple of either 2 or 5 but not both. If the number is a multiple of 2 and 5 both, then print "Multiple of 2 and 5 both". For all other numbers, the program prints "Not a multiple we want".
 For example, 2, 4, 5, 6, 8, 12, 14, 15, 16, 18, 22 … i.e. this includes multiples of 2 only and multiples of 5 only, NOT multiples of 2 and 5 both or other numbers. 
 hint(1): we may use the modulus (%) operator for checking the divisibility
@@ -11,7 +12,7 @@ Sample Input: 10
 Output: Multiple of 2 and 5 both
 Sample Input: 17
 Output: Not a multiple we want
-
+*/
 Code:
 import java.util.Scanner;
 public class task10{
