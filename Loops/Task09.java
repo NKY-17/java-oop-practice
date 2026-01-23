@@ -1,3 +1,4 @@
+/*
 Write a java program to take an integer as input and display how many digits there are in the number.
 
 Sample Input:
@@ -8,8 +9,6 @@ Sample Input:
 647823
 Sample Output:
 6 digits
-
-
 
 Write a java program that encrypts an input integer by multiplying each digit by 7. 
 (Hint: You will need to use the code from part a).
@@ -22,7 +21,7 @@ Sample Input:
 99944
 Sample Output:
 63 63 63 28 28
-
+*/
 Code:
 a)
 import java.util.Scanner;
@@ -62,5 +61,3 @@ while(s>0){
 }
   }
 }
-
-
