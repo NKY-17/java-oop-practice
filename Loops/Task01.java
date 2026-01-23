@@ -1,3 +1,4 @@
+/*
 Task 1
 
 a) Using while loops, write a java code to display/print the following serieses:
@@ -6,8 +7,10 @@ a) Using while loops, write a java code to display/print the following serieses:
 
 b) 1, 3, 6, 10, 15, 21, 28, 36, 45, 55, 66, 78, 91, 105, 120
 (Hint: at each iteration, the increment amount also increases)
+*/
 
-Code:
+//Code:
+
 a)
 public class task1{
   public static void main(String[]args){
