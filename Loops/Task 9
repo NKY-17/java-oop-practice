@@ -1,0 +1,66 @@
+Write a java program to take an integer as input and display how many digits there are in the number.
+
+Sample Input:
+5500
+Sample Output:
+4 digits
+Sample Input:
+647823
+Sample Output:
+6 digits
+
+
+
+Write a java program that encrypts an input integer by multiplying each digit by 7. 
+(Hint: You will need to use the code from part a).
+
+Sample Input:
+3705
+Sample Output:
+21 49 0 35
+Sample Input:
+99944
+Sample Output:
+63 63 63 28 28
+
+Code:
+a)
+import java.util.Scanner;
+public class task9a{
+  public static void main(String[]args){
+Scanner sc=new Scanner(System.in); 
+int x=sc.nextInt();
+int c=0;
+for(int i=x;i>0;){
+  i=i/10;
+  c++;
+}
+System.out.println(c+" digits");
+  }
+}
+b)
+import java.util.Scanner;
+public class task9b{
+  public static void main(String[]args){
+Scanner sc=new Scanner(System.in); 
+int x=sc.nextInt();
+int c=0;
+int s=x;
+for(int i=x;i>0;){
+  i=i/10;
+  c++;
+}
+System.out.println(c+" digits");
+int p=0;
+int r=0;
+while(s>0){
+  p=(int)Math.pow(10,c-1);
+  r=s/p;
+  System.out.print(r*7+" ");
+  s=s%p;
+  c--;
+}
+  }
+}
+
+
