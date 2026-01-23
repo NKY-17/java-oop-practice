@@ -1,6 +1,6 @@
-Write a Java program declaring two integer variables and initializing them. Your task is to swap the values of these two variables. You must complete it using two different approaches.
+/* Write a Java program declaring two integer variables and initializing them. Your task is to swap the values of these two variables. You must complete it using two different approaches.
 By Creating a third variable.
-Without creating any other variables.
+Without creating any other variables.*/
 
 Code:
 public class task2{
