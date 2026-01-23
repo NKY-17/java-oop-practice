@@ -1,3 +1,4 @@
+/*
 Write a java programs to print the following patterns
 
 a)Square pattern
@@ -19,7 +20,7 @@ Sample Output:
 ***
 ****
 *****
-
+*/
 Code:
 a)
 import java.util.Scanner;
