@@ -1,3 +1,4 @@
+/*
 Write a java program to calculate weighted average of 5 decimal numbers, where the numbers will be given in the following format:
 num1 
 weight1 
@@ -29,7 +30,7 @@ Sample Input:
 7 3
 Sample Output:
 Weighted Average = 5.181818181818182
-
+*/
 Code:
 
 import java.util.Scanner;
