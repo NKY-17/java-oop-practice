@@ -1,3 +1,4 @@
+/*
 Write a java program that takes 10 inputs from the user in a loop, and displays the sum, average, minimum and maximum of those numbers.
 
 Sample Input:
@@ -32,7 +33,7 @@ Sum = 138
 Minimum = -11
 Maximum = 53
 Average = 13.8
-
+*/
 Code:
 import java.util.Scanner;
 public class task1{
