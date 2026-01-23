@@ -1,3 +1,4 @@
+/*
 Let’s consider the following piecewise function:
 
 Write a Java code of a program that takes the value of x as user input and then displays the output based on the given piecewise function.
@@ -10,7 +11,7 @@ Sample Input: 4
 Output: 15
 Sample Input: 10
 Output: 302
-
+*/
 Code:
 import java.util.Scanner;
 public class task11{
@@ -31,4 +32,3 @@ else{
          }
   }
 }
-
