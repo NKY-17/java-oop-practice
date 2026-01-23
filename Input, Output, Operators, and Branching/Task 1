@@ -1,1 +1,140 @@
+Write the Java code for the following:
+A.Declare an integer variable. Initialize it with some value of your choice and print it to check the value has been stored properly.
+B.Declare and initialize another integer variable. Add this to the first one (without creating a new variable) and print out the result. Verify that the addition has been done correctly.
+C.Now print the product and division of the two integer numbers.
+D.Repeat exercises 1A, 1B, and 1C for variables of data type double. Verify your answers.
+E.Repeat exercises 1A, 1B, and 1C for one double data type and one integer datatype. Verify your answers.
+F.Repeat exercises 1A and 1B for variables of data type String. How does the addition operator work for Strings? What if the first variable is an integer and the second is a String and vice versa?
+G.Repeat 1A and 1B for integers taken as inputs from the user. 
 
+Code:
+A)
+public class task1{
+  public static void main(String[]args){
+    int x=4;
+    System.out.println(x);
+  }
+}
+
+B)
+public class task1{
+  public static void main(String[]args){
+    int x=4;
+    int y=2;
+    System.out.println(x+y);
+  }
+}
+
+C)
+public class task1{
+  public static void main(String[]args){
+    int x=4;
+    int y=2;
+    System.out.println(x*y);
+     System.out.println(x/y);
+  }
+}
+
+D)
+public class task1{
+  public static void main(String[]args){
+    double x=4.5;
+       System.out.println(x);
+       }
+}
+
+public class task1{
+  public static void main(String[]args){
+    double x=4.5;
+    double y=2.5;
+    System.out.println(x+y);
+  }
+}
+
+public class task1{
+  public static void main(String[]args){
+    double x=4.5;
+    double y=2.5;
+       System.out.println(x*y);
+        System.out.println(x/y);
+       }
+}
+
+E)
+public class task1{
+  public static void main(String[]args){
+ int x=4;
+    double y=2.5;
+       System.out.println(x);
+        System.out.println(y);
+       }
+}
+
+public class task1{
+  public static void main(String[]args){
+ int x=4;
+    double y=2.5;
+       System.out.println(x+y);
+  }
+}
+
+public class task1{
+  public static void main(String[]args){
+ int x=4;
+    double y=2.5;
+       System.out.println(x*y);
+        System.out.println(x/y);
+  }
+}
+
+F)
+
+public class task1{
+  public static void main(String[]args){
+ String x="4";
+         System.out.println(x);
+  }
+}
+
+public class task1{
+  public static void main(String[]args){
+ String x="4";
+  String y="2";
+         System.out.println(x+y);
+  }
+}
+
+public class task1{
+  public static void main(String[]args){
+ int x=4;
+  String y="2";
+         System.out.println(x+y);
+  }
+}
+
+public class task1{
+  public static void main(String[]args){
+ String x="4";
+ int y=2;
+         System.out.println(x+y);
+  }
+}
+G)
+import java.util.Scanner;
+public class task1{
+  public static void main(String[]args){
+    Scanner sc=new Scanner(System.in);
+    int x=sc.nextInt();
+     System.out.println(x);
+  }
+}
+
+import java.util.Scanner;
+public class task1{
+  public static void main(String[]args){
+    Scanner sc=new Scanner(System.in);
+    int x=sc.nextInt();
+ int y=sc.nextInt();
+    System.out.println(x+y);
+  }
+}
