@@ -1,11 +1,11 @@
 /*Task - 01: Write a Java program that will take one string input from the user. Then check and print whether it is a palindrome. 
 
-Sample Input
-Output
+Sample Input:
 Java
-Not a palindrome
+Output: Not a palindrome
+Sample Input:
 madam
-Palindrome
+Output: Palindrome
 
 */
 //Code:
